@@ -10,7 +10,7 @@ func main() {
 	rand.Seed(time.Now().UnixNano())
 	var arr [10]int
 	for i := 0; i < len(arr); i++ {
-		arr[i] = rand.Intn(100) // Генерация случайного числа от 0 до 99
+		arr[i] = rand.Intn(100) 
 	}
 	fmt.Println("original:", arr)
 	fmt.Println(sliceExample(arr))     //1.для выборки четных
